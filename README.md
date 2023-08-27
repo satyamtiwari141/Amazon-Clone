@@ -1,4 +1,4 @@
-# E-commerce: Amazon Clone App
+# Amazon Clone App
 
 
 ![Image](https://res.cloudinary.com/dyduvs3s5/image/upload/v1692130358/jltwcpj8zwuxyw353f2j.png)
@@ -10,19 +10,28 @@
 - Backend APIs developed with Node JS.
 - Mongo db is used for cloud database.
 
+
+## Tech Used
+**Server**: Node.js, Express, Mongoose, MongoDB, Cloudinary
+
+**Client**: Flutter, Provider
+
 Then run the following commands to run your app:
 
-Server Side
+### Server Side
+```bash
   cd server
   npm install
   npm run dev (for continuous development)
   OR
   npm start (to run script 1 time)
-Client Side
+```
+
+### Client Side
+```bash
   flutter pub get
   open -a simulator (to get iOS Simulator)
   flutter run
-Tech Used
-Server: Node.js, Express, Mongoose, MongoDB, Cloudinary
+```
 
-Client: Flutter, Provider
+
